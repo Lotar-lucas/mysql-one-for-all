@@ -1,6 +1,6 @@
 CREATE VIEW top_3_artistas AS
 SELECT
-  a.nome_artista as artistas,
+  a.nome_artista as artista,
   count(s.artista_id) as seguidores
 FROM artista as a
 INNER JOIN seguidor as s
