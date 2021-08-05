@@ -90,7 +90,7 @@ INSERT INTO cancao(nome_cancao, artista_id, album_id) VALUES
 ('Fantasy For Me',3,4),
 ('Celebration Of More',3,4),
 ('Rock His Everything',3,4),
-('Home Foreve',3,4),
+('Home Forever',3,4),
 ("Honey, Let's Be Silly",3,4),
 ('Without My Streets',4,5),
 ('Words Of Her Life',4,5),
