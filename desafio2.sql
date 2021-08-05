@@ -5,6 +5,6 @@ SELECT
   COUNT(DISTINCT album_id) as albuns
 FROM cancao as c;
 
--- Realizado com auxilio dop colega Rafael Mathias
+-- Realizado com auxilio do colega Rafael Mathias
 
 
