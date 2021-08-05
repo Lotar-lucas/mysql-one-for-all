@@ -4,7 +4,3 @@ SELECT
   COUNT(DISTINCT artista_id) as artistas,
   COUNT(DISTINCT album_id) as albuns
 FROM cancao as c;
-
--- Realizado com auxilio do colega Rafael Mathias
-
-

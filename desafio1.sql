@@ -24,7 +24,7 @@ CREATE TABLE SpotifyClone.usuario(
 usuario_id INT(11) PRIMARY KEY AUTO_INCREMENT,
 nome_usuario VARCHAR(50) NOT NULL,
 idade INT(3),
-plano_id INT(11),
+plano_id INT(11) NOT NULL,
 FOREIGN KEY (plano_id) REFERENCES SpotifyClone.plano(plano_id)
 );
 
@@ -72,10 +72,10 @@ INSERT INTO album(nome_album,artista_id) VALUES
 ('Temporary Culture',4);
 
 INSERT INTO usuario(nome_usuario, idade) VALUES
-('Thati', 23),
-('Cintia',35),
-('Bill',20),
-('Roger',45);
+('Thati', 23,1),
+('Cintia',35,2),
+('Bill',20,3),
+('Roger',45,1);
 
 INSERT INTO cancao(nome_cancao, artista_id, album_id) VALUES
 ('Soul For Us', 1,1),
