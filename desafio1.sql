@@ -71,7 +71,7 @@ INSERT INTO album(nome_album,artista_id) VALUES
 ('Incandescent',3),
 ('Temporary Culture',4);
 
-INSERT INTO usuario(nome_usuario, idade) VALUES
+INSERT INTO usuario(nome_usuario, idade, plano_id) VALUES
 ('Thati', 23,1),
 ('Cintia',35,2),
 ('Bill',20,3),
