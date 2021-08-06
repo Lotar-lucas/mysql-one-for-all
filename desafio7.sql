@@ -10,4 +10,3 @@ INNER JOIN seguidor as s
 ON s.artista_id = alb.artista_id
 GROUP BY a.nome_artista, alb.nome_album
 ORDER BY COUNT(s.artista_id) DESC,a.nome_artista, alb.nome_album;
-
